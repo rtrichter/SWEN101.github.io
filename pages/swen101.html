@@ -6,25 +6,47 @@
         <title>Ryan's SWEN101 Github.io page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/styes/swen101.css">
+        <link rel="stylesheet" href="/styles/main.css"> 
+        <!-- overwrite main.css with any local styles -->
+        <link rel="stylesheet" href="/styles/swen101.css">
     </head>
     <body>
         <div class="githubio-assignment">
-            <h2>About Me</h2>
-            <p>My name is Ryan Richter. I went to Averill Park High School and graduated in the top 10 students of my class. 
-                I play the saxophone (follow @courtyardrit on instagram), tennis, and frisbee
-                I also like to write code in my free time. 
-            </p>
-            <h2>My Favorite Food</h2>
-            <img src="/assets/mac-and-cheese.jpg" alt="Mac and Cheese">
-            <p> The RIT SE website: <a href="https://www.se.rit.edu/~swen-101/00/index.html">link</a></p>
-            <h2>What I'd Like to Learn</h2>
-            <ul>
-                <li>I'd like to learn about good practices when developing software. </li>
-                <li>The hardest part of programming for me was always planning, so learning how to gather requirements, make prototypes, etc is really helpful</li>
-                <li>I am learning a lot about working with a team and managing projects between multiple people by working in groups</li>
-                <li>The course is already helping me organize projects and tasks as I have started using trello for my every day life</li>
-            </ul>
+            <div class="scroll-page">
+                <h1 id="about-me-h1">About Me</h1>
+                <p id="about-me-p">
+                    Hi! My name is Ryan Richter. I grew up near Albany, New York and moved to Burlington (and soon Cambridge) Vermont this year. I graduated from Averill Park High School with a top 10 ranking in my class. I play the saxophone (follow <a href="https://www.instagram.com/courtyardrit/">@courtyardrit</a> on instagram). I also play ultimate frisbee and tennis. I am on the RIT Formula SAE team as well as the VEXU team. I have a dog (silver lab) named Aussie who is 2.5 years old. Lastly, I have a skeleton named Herbert that I take pictures of during October. Every day of the month I post one to my insagram (<a href="https://www.instagram.com/ryanrichter028">@ryanrichter028</a>). This is my third year posting pictures of him every day. 
+                </p>
+                <div class="three-wide-div-container">
+                    <div class="image-container" id="about-me-image-left">
+                        <img src="/assets/swen101/courtyard.jpg" alt="@courtyardrit playing in the courtyard">
+                    </div>
+                    <div class="image-container" id="about-me-image-mid">
+                        <img src="/assets/swen101/graduation.jpg" alt="Graduation picture">
+                    </div>
+                    <div class="image-container" id="about-me-image-right">
+                        <img src="/assets/swen101/herbert.jpg" alt="Herbert picture in a school bus">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-page scroll-page-odd">
+                <h1>My Favorite Food</h1>
+                <div class="mac-container">
+                    <img id="mac-pic" src="/assets/swen101/mac-and-cheese.jpg" alt="Mac and Cheese">
+                </div>
+            </div>
+            <div class="scroll-page">
+                <p> The RIT SE website: <a href="https://www.se.rit.edu/~swen-101/00/index.html">link</a></p>
+            </div>
+            <div class="scroll-page scroll-page-odd">
+            <h1>What I'd Like to Learn</h1>
+                <ul>
+                    <li>I'd like to learn about good practices when developing software. </li>
+                    <li>The hardest part of programming for me was always planning, so learning how to gather requirements, make prototypes, etc is really helpful</li>
+                    <li>I am learning a lot about working with a team and managing projects between multiple people by working in groups</li>
+                    <li>The course is already helping me organize projects and tasks as I have started using trello for my every day life</li>
+                </ul>
+            </div>
         </div>
         <script src="/scripts/swen101.js" async defer></script>
     </body>
