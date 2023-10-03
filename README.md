@@ -1,2 +1,2 @@
-# SWEN101.github.io
-Site for my SWEN101 github.io assignment
+# rtrichter.github.io
+My portfolio site
