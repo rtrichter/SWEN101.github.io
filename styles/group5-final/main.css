@@ -1,0 +1,16 @@
+.toolbox-item {
+  object-fit: cover;
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  text-align: center;
+}
+
+
+.image-container img {
+  object-fit: cover;
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  text-align: center;
+}

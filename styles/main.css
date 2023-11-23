@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif');
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: #dfdddf;
+    font-family: 'Raleway', serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: powderblue;
+}
+
+a {
+    color: #111111
+}
